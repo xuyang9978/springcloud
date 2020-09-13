@@ -1,0 +1,11 @@
+server:
+  port: 8004
+
+# 服务名
+spring:
+  application:
+    name: cloud-provider-zk-payment
+  cloud:
+    zookeeper:
+      # zookeeper 注册中心的 ip 地址和端口号(这里是在虚拟机中部署的 zookeeper)
+      connect-string: 192.168.181.129:2181
